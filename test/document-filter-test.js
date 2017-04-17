@@ -15,15 +15,15 @@ describe('Document Filter', function() {
     expect(angular.isArray(this.documentFilter(this.tasks))).toBe(true)
   })
 
-  // it('should leave tasks array unmodified', () => {
-  //   expect(this.documentFilter(this.tasks)).toBe(this.tasks)
-  //   expect(this.tasks).toBe(this.tasks)
-  // })
-  //
-  // it('should return all tasks when docID is undefined', () => {
-  //   expect(this.documentFilter(this.tasks)).toBe(this.tasks)
-  // })
-  //
+  it('should leave tasks array unmodified', () => {
+    expect(this.documentFilter(this.tasks)).toBe(this.tasks)
+    expect(this.tasks).toBe(this.tasks)
+  })
+
+  it('should return all tasks when docID is undefined', () => {
+    expect(this.documentFilter(this.tasks)).toBe(this.tasks)
+  })
+
   // it('should return tasks for document 1', () => {
   //   const filteredTasks = this.documentFilter(this.tasks, 1)
   //   expect(filteredTasks.length).toBe(2)
