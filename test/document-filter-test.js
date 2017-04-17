@@ -24,16 +24,16 @@ describe('Document Filter', function() {
     expect(this.documentFilter(this.tasks)).toBe(this.tasks)
   })
 
-  // it('should return tasks for document 1', () => {
-  //   const filteredTasks = this.documentFilter(this.tasks, 1)
-  //   expect(filteredTasks.length).toBe(2)
-  //   filteredTasks.forEach(task => {
-  //     expect(task.document).toBe(1)
-  //   })
-  // })
-  //
-  // it('should return empty array when document has no tasks', () => {
-  //   const filteredTasks = this.documentFilter(this.tasks, 3)
-  //   expect(filteredTasks.length).toBe(0)
-  // })
+  it('should return tasks for document 1', () => {
+    const filteredTasks = this.documentFilter(this.tasks, 1)
+    expect(filteredTasks.length).toBe(2)
+    filteredTasks.forEach(task => {
+      expect(task.document).toBe(1)
+    })
+  })
+
+  it('should return empty array when document has no tasks', () => {
+    const filteredTasks = this.documentFilter(this.tasks, 3)
+    expect(filteredTasks.length).toBe(0)
+  })
 })
