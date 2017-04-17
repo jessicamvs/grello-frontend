@@ -1,11 +1,11 @@
-# Wattle_frontend
+# Wattle Frontend
 
 # Introduction to the Team
 
 <table style="width:100%">
   <tr>
     <th>Ron Dunphy</th>
-    <th>Kyle Winckler</th> 
+    <th>Kyle Winckler</th>
     <th>Carolina Ceja</th>
     <th>Dan Peters</th>
     <th>Jessica Vasquez-Soltero</th>
@@ -13,7 +13,7 @@
 
   <tr>
     <td><img width="102" alt="ron" src="https://cloud.githubusercontent.com/assets/15117936/24783972/64cebe56-1b04-11e7-9356-6bac7d0291f7.png"></td>
-    <td><img width="90" alt="kyle" src="https://cloud.githubusercontent.com/assets/15117936/24783967/5a76c78c-1b04-11e7-9952-006769c44db0.png"></td> 
+    <td><img width="90" alt="kyle" src="https://cloud.githubusercontent.com/assets/15117936/24783967/5a76c78c-1b04-11e7-9952-006769c44db0.png"></td>
     <td><img width="100" alt="carolina" src="https://cloud.githubusercontent.com/assets/15117936/24783952/46ca6d88-1b04-11e7-80e5-e08710f8ed08.png"></td>
     <td><img width="100" alt="dan" src="https://cloud.githubusercontent.com/assets/15117936/24783980/7417e1da-1b04-11e7-872d-5966a99a326d.png"></td>
     <td><img width="100" alt="jessica" src="https://cloud.githubusercontent.com/assets/15117936/24783910/14cc8c44-1b04-11e7-90ff-d4f059799db3.png"></td>
@@ -28,20 +28,20 @@ Our goal is to provide a project workflow that will easily couple tasks to the a
 
 All data is stored using Mongo in the Backend of our Project
 
-### -Category: 
+### -Category:
 The different naming conventions used for each container, whether it be
  for different project names, or to assign urgency ratings for unassigned tasks.
 
-### -Document: 
+### -Document:
 googleID, name, array of tasks.
 
-### -Tag: 
+### -Tag:
 Tags will identify properties on the comment object so that we can create custom filters.
 
-### -Task: 
+### -Task:
 All tasks to be completed. These tasks are imported from Google Docs, where the tasks are created.
 
-### -User: 
+### -User:
 All users that have created accounts.
 
 ### OAUTH:
